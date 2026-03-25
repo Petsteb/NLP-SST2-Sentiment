@@ -1,0 +1,28 @@
+# Dataset (regenerate by running preprocessing.ipynb)
+SST-2/
+
+# Generated results
+LogReg/
+SVM/
+BERT/
+RoBERTa-CE/
+RoBERTa-SCL/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Models / checkpoints
+models/
+*.pt
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
